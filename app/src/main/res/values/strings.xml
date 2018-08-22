@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Charm_Seoul</string>
+    <string name="facebook_app_id">223652971653364</string>
+    <string name="fb_login_protocol_scheme">fb223652971653364</string>
+</resources>
