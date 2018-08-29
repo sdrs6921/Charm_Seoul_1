@@ -36,4 +36,6 @@ dependencies {
     //Add Library
     //implementation 'com.android.support:design:25.1.0'
     implementation 'com.android.support:design:27.0.2'
+    //compile 'com.naver.maps.open:naver-map-api:2.1.2@aar'
+    implementation files('libs/libDaumMapAndroid.jar')
 }

@@ -3,6 +3,11 @@
     package="com.example.user.charm_seoul">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
 
     <application
         android:allowBackup="true"
@@ -22,6 +27,9 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
+
+        <meta-data android:name="com.kakao.sdk.AppKey"
+            android:value="0db643e2ce4061b1800e7d49c1b4e96d"/>
 
         <activity
             android:name="com.facebook.FacebookActivity"
